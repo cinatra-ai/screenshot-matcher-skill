@@ -1,0 +1,17 @@
+{
+  "name": "@cinatra-ai/screenshot-matcher-skill",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "description": "Classifies an image as a UI / application Screenshot. Extracted from @cinatra-ai/screenshot-artifact (cinatra#2090).",
+  "type": "module",
+  "files": [
+    "skills"
+  ],
+  "cinatra": {
+    "apiVersion": "cinatra.ai/v1",
+    "kind": "skill",
+    "displayName": "Screenshot Matcher Skill",
+    "skillRole": "matcher",
+    "dependencies": []
+  }
+}
